@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(199, 204, 197);
+}
+
+/* brand styling */
+
+
+.logo-main{
+    width: 30%;
+    position: relative;
+    left: 32%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+
+/* navbar styling */
+
+.navbar-list{
+    display: inline;
+}
+
+.navbar-nav{
+    justify-content: center;
+    width: 80%;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.nav-link{
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+.nav-item :visited{
+    color: #fff;
+}
+
+.nav-item :hover{
+    color: rgb(121, 134, 146);
+}
+
+.nav-item :active{
+    color: rgb(109, 120, 128);
+}
+
+
+/* main article */
+
+
+article{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    background-image: url(pasta.jpeg);
+    border-radius: 10px;
+    padding: 2%;
+    background-size: cover;
+}
+h2{
+    color: rgb(248, 253, 255);
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+article>p{
+    color:rgb(255, 255, 255);
+    font-size: larger;
+}
+
+
+/* main content */
+
+.main{
+    margin-top: 50px;
+    padding: 5%;
+}
+
+.Table-booking, .Opening-hours, .Menu-details{
+    background-color: rgb(218, 195, 153);
+    width: 420px;
+    margin: auto;
+    border-radius: 10px;
+    height: 500px;
+    text-align: center;
+    padding: 1%;
+}
+
+.menu-img{
+    width: 200px;
+    border-radius: 10px;
+    height: 150px;
+    margin: 20px 0;
+}
+.salad-img{
+    width: 200px;
+    border-radius: 10px;
+    height: 150px;
+    margin: 20px 0;
+}
+.chef-img{
+    border-radius: 10px;
+    width: 230px;
+    height: 130px;
+    margin: 20px 0;
+}
+
+
+
+/* footer styling */
+
+footer{
+    margin: 20px 0 0 0;
+    padding: 5%;
+}
+
+footer>p{
+    position:absolute;
+    right: 80px;
+    margin-top: 20px;
+}
+hr{
+    color: black;
+    width: 40%;
+    position: absolute;
+    right: 80px;
+    border: 2px solid black;
+
+}
